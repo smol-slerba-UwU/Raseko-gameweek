@@ -1,0 +1,65 @@
+.linkit{
+    top: 500px; 
+    max-width: 20%;
+    min-width: 20%;
+    min-height: 300px;
+    color: white;
+    text-align: center;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    background-image: url('https://i.redd.it/0bb6dqsiab451.gif');
+    background-size: cover;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+.header
+{
+    min-width: 100%;
+    
+    margin-left: auto;
+    
+    left: 50%;
+    text-align: center;
+    border: 1px solid black;
+    min-height: 100px;
+    max-height: 20%;
+    color: black;
+}
+
+.kuvat
+{
+    max-width: 20%;
+    left: 0%;
+    height: auto;
+    object-fit: none;
+    opacity: 0.75;
+
+    
+}
+
+.teksti
+{
+    position: absolute;
+    top: 110px;
+    margin-left: 20%;
+    min-height: 805px;
+    color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    right: 10px; 
+    width: 100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    }
